@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Portfolio Code</title>
+    <style>
+        body {
+            font-family: 'Cinzel', serif;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+            color: #e8dcc4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(26, 26, 46, 0.5);
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #d4af37;
+            color: #0a0a0f;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s;
+            margin: 10px;
+        }
+        .download-btn:hover {
+            background: #b8941f;
+            transform: scale(1.05);
+        }
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(10, 10, 15, 0.5);
+            border-radius: 5px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .back-btn {
+            background: transparent;
+            border: 2px solid #d4af37;
+            color: #d4af37;
+        }
+        .back-btn:hover {
+            background: #d4af37;
+            color: #0a0a0f;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Hogwarts Legacy Portfolio</h1>
+        <p>Download the complete source code</p>
+        
+        <a href="/hogwarts-portfolio.zip" download class="download-btn">
+            📦 Download ZIP (50KB)
+        </a>
+        
+        <br>
+        
+        <a href="/" class="download-btn back-btn">
+            🏰 Back to Portfolio
+        </a>
+        
+        <div class="info">
+            <h3>📁 What's Included:</h3>
+            <p>• All React components & pages</p>
+            <p>• 54 Shadcn UI components</p>
+            <p>• Mock data file</p>
+            <p>• Tailwind config</p>
+            <p>• Package.json with all dependencies</p>
+            <p>• Complete styling</p>
+            <br>
+            <h3>🚀 Quick Start:</h3>
+            <p style="font-family: monospace; font-size: 14px;">
+                1. Extract the zip<br>
+                2. cd frontend<br>
+                3. yarn install<br>
+                4. yarn start
+            </p>
+        </div>
+    </div>
+</body>
+</html>
